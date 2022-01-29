@@ -3,7 +3,7 @@
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=0
 GRUB_DISTRIBUTOR="Arch"
-GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet intel_iommu=on"
 GRUB_CMDLINE_LINUX="cryptdevice=UUID=6a4180a7-3961-4ceb-b034-93363fdd7b9a:cryptlvm rootfstype=btrfs"
 
 # Preload both GPT and MBR modules so that they are not missed
